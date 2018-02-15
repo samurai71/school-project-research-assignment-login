@@ -1,0 +1,12 @@
+.hidden {
+	display: none;
+}
+
+.panel {
+	border: 1px solid #000000;
+	border-radius: 1em;
+}
+
+#login {
+	padding-top: 2em;
+}
