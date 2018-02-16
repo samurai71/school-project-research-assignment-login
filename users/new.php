@@ -44,7 +44,6 @@ if(is_post_request()) {
   <div class="admin new">
     <h1>Create User</h1>
 
-    <?php echo display_errors($errors); ?>
 
     <form action="<?php echo url_for('/users/new.php'); ?>" method="post">
       <dl>

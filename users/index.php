@@ -4,18 +4,18 @@ require_once('../admin/phpscripts/init.php');
 
 require_login();
 
-$users_set = find_all_admins();
+$users_set = find_all_users();
 
 ?>
 
-<?php $page_title = 'Admins'; ?>
+<?php $page_title = 'Users'; ?>
 
 <div id="content">
   <div class="admins listing">
     <h1>Admins</h1>
 
     <div class="actions">
-      <a class="action" href="<?php echo url_for('/staff/admins/new.php'); ?>">Create New Admin</a>
+      <a class="action" href="<?php echo url_for('users/new.php'); ?>">Create New User</a>
     </div>
 
     <table class="list">
